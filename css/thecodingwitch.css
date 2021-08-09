@@ -1,0 +1,199 @@
+/***** BASE STYLES *****/
+body {
+    color: #2b2b2b;
+    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/***** GRID *****/
+.full-width {    
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    margin: 0 auto;    
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** HEADER *****/
+
+header {    
+    background: url('../img/bg1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;    
+    height: 800px;
+}
+
+header h1 {
+    color: #cbc3bc;    
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    padding: 65px 0 65px 25px;
+}
+
+header #witch {
+    height: 500px;
+    margin-left: 200px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #cbc3bc;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    padding-left: 80px;
+    text-decoration: none;
+    text-transform: uppercase;    
+}
+
+header h2 {
+    clear: both;
+    color: #ca8463;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 100px;
+    line-height: 80px; 
+    width: 1100px;
+}
+
+
+/***** ABOUT *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 35px;
+    padding-left: 50px;
+}
+
+#about p {
+    color: #7f7f7f;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 21px;    
+    line-height: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/***** WORK *****/
+
+#work {
+    background-color: #997571;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 115px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 0 auto;
+    width: 200px;    
+}
+
+#work p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
+#work #bottles, #crystals, #cat-skull {height: 100px}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #cbc3bc;
+}
+
+#contact .full-width {
+    padding: 110px 0;
+}
+
+#contact img#contact-img {
+    
+    border: 12px solid #405771;
+    height: 300px;
+    margin-left: 25px;   
+    
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    
+}
+
+#contact #books {
+    height: 100px;
+    padding: 0 10px 0 15px;
+}
+
+
+
+#contact h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 35px;
+    
+}
+
+#contact #email-header {
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 60px;
+    margin: -30px 0 5px 0;
+    
+}
+
+#contact #socialmedia-header {
+    font-size: 25px;
+    font-weight: bold;    
+    line-height: 30px;
+    margin: 40px 0 0 0;
+}
+
+#contact a {
+    
+    color: #ca8463;
+    font-size: 20px;    
+    font-weight: bold;
+    margin-left: 25px;
+    text-decoration: none;
+  
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding-right: 48px;
+}
